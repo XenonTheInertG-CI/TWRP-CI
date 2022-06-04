@@ -15,6 +15,7 @@ telegram_message() {
 }
 
 # Clone the Sync Repo
+mkdir -p $SYNC_PATH
 cd $SYNC_PATH
 repo init $TWRP_MANIFEST -b $TWRP_BRANCH --depth=1
 repo sync

@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Device
-export TWRP_MANIFEST ="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
-export TWRP_BRANCH ="twrp-11"
-export DT_LINK="https://github.com/XenonTheInertG-CI/android_device_oneplus_OnePlus9Pro -b a11"
+export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
+export TWRP_BRANCH="twrp-12.1"
+export DT_LINK="https://github.com/bigsaltyfishes/twrp_device_lenovo_J607F -b 12.1"
 
-export DEVICE="beryllium"
-export OEM="xiaomi"
+export DEVICE="J607F"
+export OEM="lenovo"
 export TARGET="recoveryimage"
 
 export OUTPUT="TWRP*.zip"
