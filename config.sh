@@ -3,10 +3,10 @@
 # Device
 export TWRP_MANIFEST ="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
 export TWRP_BRANCH ="twrp-11"
-export DT_LINK="https://github.com/XenonTheInertG-CI/android_device_oneplus_OnePlus9Pro -b a11"
+export DT_LINK="https://github.com/DozNaka/exynos3830-a21s-twrp.git -b android-11"
 
-export DEVICE="beryllium"
-export OEM="xiaomi"
+export DEVICE="a21s"
+export OEM="samsung"
 export TARGET="recoveryimage"
 
 export OUTPUT="TWRP*.zip"
