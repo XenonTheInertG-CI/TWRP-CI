@@ -2,12 +2,12 @@
 
 # Device
 export TWRP_MANIFEST ="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
-export TWRP_BRANCH ="twrp-11"
-export DT_LINK="https://github.com/XenonTheInertG-CI/android_device_oneplus_OnePlus9Pro -b a11"
+export TWRP_BRANCH ="twrp-12.1"
+export DT_LINK="https://github.com/plente00/android_device_sony_bahamut_kddi -b aa11"
 
-export DEVICE="beryllium"
-export OEM="xiaomi"
-export TARGET="recoveryimage"
+export DEVICE="bahamut_kddi"
+export OEM="sony"
+export TARGET="bootimage"
 
 export OUTPUT="TWRP*.zip"
 
