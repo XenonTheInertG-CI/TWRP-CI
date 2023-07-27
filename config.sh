@@ -2,10 +2,10 @@
 
 # Device
 export TWRP_MANIFEST ="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
-export TWRP_BRANCH ="twrp-11"
-export DT_LINK="https://github.com/XenonTheInertG-CI/android_device_oneplus_OnePlus9Pro -b a11"
+export TWRP_BRANCH ="twrp-12.1"
+export DT_LINK="https://github.com/RedEnemy30/android_device_xiaomi_veux -b A13-CN"
 
-export DEVICE="beryllium"
+export DEVICE="veux"
 export OEM="xiaomi"
 export TARGET="recoveryimage"
 
